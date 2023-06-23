@@ -1,0 +1,18 @@
+.header {
+    background-color: blue;
+    color: black;
+    border-radius: 12px;
+    width: 50%;
+    height: 60px;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-top:10px;
+    .header-text {
+        font-size: 20pt;
+        font-weight: bolder;
+        color: black;
+        font-style: italic;
+        margin-top: 30px;
+    }
+        filter: drop-shadow(8px 8px 5px grey);
+    }
