@@ -1,6 +1,7 @@
 import React from "react";
 import "./Body.css";
 import { Accordion } from "react-bootstrap";
+import InitialTidalVol from "./Sections/VentManagement/InitialTidalVolume/InitialTidalVolume";
 
 export default function Body() {
   return (
@@ -12,6 +13,8 @@ export default function Body() {
             <Accordion.Body>This is a test of the accordian</Accordion.Body>
           </Accordion.Item>
         </Accordion>
+
+        <InitialTidalVol />
       </div>
     </div>
   );
